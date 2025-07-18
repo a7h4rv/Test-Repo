@@ -32,7 +32,7 @@
 
 /* Body setup */
 body {
-  background-image: url("../Asssets/wave.jpeg"); /* FIXED PATH */
+  background-image: url("WEB-APPLICATION/Asssets/wave.jpeg"); /* FIXED PATH */
   background-position: center;
   background-size: cover;
   background-blend-mode: lighten;
