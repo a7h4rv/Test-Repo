@@ -1,0 +1,145 @@
+.comic-relief-regular {
+    font-family: "Comic Relief", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    }
+.roboto{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:"wdth" 75;
+    }
+.gaegu-light {
+    font-family: "Gaegu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    }
+.gaegu-regular {
+    font-family: "Gaegu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+.gaegu-bold {
+    font-family: "Gaegu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    }
+
+/*body setup*/
+body{
+    /* background-color: rgb(0, 0, 0) */
+    background-image:url(WEB-APPLICATION/Asssets/wave.jpeg);
+    background-position: centre;
+    background-size: cover;
+    background-blend-mode:lighten;
+    }
+/*Title setup*/
+#Title{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    text-align:left;
+    font-family:"Gaegu",sans-serif ;
+    font-weight: 100;
+    }
+#dash{
+    background-color: rgba(0, 0, 0, 0.819);
+    border: 10px solid rgb(1, 1, 1);
+    align-content: flex-end;
+    border-left: 0px;
+    padding: 24.5px;
+    justify-content: right;
+    height: fit-content;
+    }
+/*div setup*/
+.container{
+    display: flex;
+    height : 100px;
+    .box1{
+        background-color: rgba(129, 124, 124, 0.649);
+        color: rgb(245, 245, 245);
+        text-align: left;
+        font-family:"Gaegu", sans-serif ;
+        font-weight: 700;
+        font-style: normal;
+        width: 95%;
+        height: 79px;
+        padding:10px;
+        border: 10px solid rgb(9, 8, 8);
+         }
+    }
+
+.tabs{
+    display: flex;
+    height :600px;
+    background-color: rgba(0, 0, 0, 0);
+    padding-left: 5%;
+    padding-right: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+        
+    .tab1{
+        font-family: "Gaegu", sans-serif;
+        background-image: url(../Asssets/mess.jpeg);
+        background-size: cover;
+        background-position:right;
+        border:10px solid rgb(0, 0, 0);
+        width: 30%;
+        margin-right: 10px;
+        margin-left: 10px; 
+        }
+    .tab2{
+        font-family:"Gaegu",sans-serif ;
+       background-image: url(../Asssets/pencil.jpeg);
+       background-size: cover;
+       background-position:bottom ;
+        border: 10px solid rgb(0, 0, 0);
+        width: 30%;
+        margin-right: 10px;
+        margin-left: 10px;
+        }
+    .tab3{
+        font-family: "Gaegu", sans-serif;
+        background-image: url(../Asssets/yeahh.jpeg);
+        background-size: cover;
+        background-position:right;
+        border: 10px solid rgb(0, 0, 0);
+        width: 30%;
+        margin-right: 10px;
+        margin-left: 10px;
+        }
+    }    
+
+#t1{
+    font-family: "Gaegu",sans-serif;
+    font-weight: 100;
+    display: flex;
+    padding-left:10%;
+    border: 1px solid rgb(239, 239, 243);
+    background-color: rgba(0, 0, 0, 0.789);
+    color: rgb(255, 253, 253);
+    }
+#t3 {
+    font-family: "Gaegu", sans-serif;
+    font-weight: 100;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10px;
+    border:1px solid rgb(239, 239, 243) ;
+    background-color: rgba(0, 0, 0, 0.789);
+    color: rgb(255, 253, 253);
+    }
+
+#Cont-opener{
+    color: azure;
+    display: flex;
+    height: auto;
+    font-family: "Gaegu", sans-serif;
+    font-weight: 100;
+    font-size: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color:rgba(0, 0, 0, 0.654);
+    border: 10px solid rgb(0, 0, 0);   
+    }
